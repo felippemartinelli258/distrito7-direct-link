@@ -32,7 +32,7 @@ export const products: Product[] = [
     category: "Documentos",
     description: "Modelo digital com aplicativo GOV e QR Code funcional.",
     price: "R$ 274,90",
-    image: "/products/rg-app-gov.jpeg",
+    image: "/products/rg-app-gov.jpg",
     available: true,
     featured: true,
   },
@@ -42,7 +42,7 @@ export const products: Product[] = [
     category: "Documentos",
     description: "Versão digital com aplicativo GOV e QR Code funcional.",
     price: "R$ 274,90",
-    image: "/products/cnh-app-gov.jpeg",
+    image: "/products/cnh-app-gov.jpg",
     available: true,
     featured: true,
   },
@@ -52,7 +52,7 @@ export const products: Product[] = [
     category: "Documentos",
     description: "Modelo de qualquer estado, feito conforme sua necessidade.",
     price: "R$ 99,90",
-    image: "/products/rg-modelo.jpeg",
+    image: "/products/rg-modelo.jpg",
     available: true,
   },
   {
@@ -61,7 +61,7 @@ export const products: Product[] = [
     category: "Documentos",
     description: "Modelo livre, ajustado de acordo com o pedido.",
     price: "R$ 99,90",
-    image: "/products/cnh-modelo.jpeg",
+    image: "/products/cnh-modelo.jpg",
     available: true,
   },
   {
@@ -70,7 +70,7 @@ export const products: Product[] = [
     category: "Documentos",
     description: "Modelo completo em alta definição.",
     price: "R$ 129,90",
-    image: "/products/certidao.jpeg",
+    image: "/products/certidao.jpg",
     available: true,
   },
   {
@@ -79,7 +79,7 @@ export const products: Product[] = [
     category: "Documentos",
     description: "Modelo padrão com acabamento fiel.",
     price: "R$ 64,90",
-    image: "/products/reservista.jpeg",
+    image: "/products/reservista.jpg",
     available: true,
   },
   {
@@ -88,7 +88,7 @@ export const products: Product[] = [
     category: "Documentos",
     description: "Diversas operadoras e concessionárias disponíveis.",
     price: "R$ 64,90",
-    image: "/products/comprovante-endereco.jpeg",
+    image: "/products/comprovante-endereco.jpg",
     available: true,
   },
   {
@@ -97,7 +97,7 @@ export const products: Product[] = [
     category: "Documentos",
     description: "Modelo com QR Code funcional.",
     price: "R$ 194,90",
-    image: "/products/craf.jpeg",
+    image: "/products/craf.jpg",
     available: true,
   },
   {
@@ -106,7 +106,7 @@ export const products: Product[] = [
     category: "Documentos",
     description: "Modelo completo em alta definição.",
     price: "R$ 194,90",
-    image: "/products/porte-federal.jpeg",
+    image: "/products/porte-federal.jpg",
     available: true,
   },
 
@@ -117,7 +117,7 @@ export const products: Product[] = [
     category: "Veicular",
     description: "Documento do veículo com QR Code funcional.",
     price: "R$ 164,90",
-    image: "/products/crlv.jpeg",
+    image: "/products/crlv.jpg",
     available: true,
     featured: true,
   },
@@ -127,7 +127,7 @@ export const products: Product[] = [
     category: "Veicular",
     description: "Autorização de transferência digital com QR Code.",
     price: "R$ 164,90",
-    image: "/products/atpve.jpeg",
+    image: "/products/atpve.jpg",
     available: true,
   },
   {
@@ -136,7 +136,7 @@ export const products: Product[] = [
     category: "Veicular",
     description: "Consulta e emissão conforme o veículo informado.",
     price: "R$ 84,90",
-    image: "/products/crv-seguranca.jpeg",
+    image: "/products/crv-seguranca.jpg",
     available: true,
   },
 
@@ -147,7 +147,7 @@ export const products: Product[] = [
     category: "Saúde",
     description: "Diversos modelos disponíveis, entrega rápida.",
     price: "R$ 74,90",
-    image: "/products/atestado-sem-qrcode.jpeg",
+    image: "/products/atestado-sem-qrcode.jpg",
     available: true,
   },
   {
@@ -156,7 +156,7 @@ export const products: Product[] = [
     category: "Saúde",
     description: "Modelo com QR Code funcional e validação.",
     price: "R$ 114,90",
-    image: "/products/atestado-qrcode.jpeg",
+    image: "/products/atestado-qrcode.jpg",
     available: true,
     featured: true,
   },
@@ -166,7 +166,7 @@ export const products: Product[] = [
     category: "Saúde",
     description: "Qualquer cidade, com QR Code funcional.",
     price: "R$ 114,90",
-    image: "/products/receita-unimed.jpeg",
+    image: "/products/receita-unimed.jpg",
     available: true,
   },
   {
@@ -175,7 +175,7 @@ export const products: Product[] = [
     category: "Saúde",
     description: "Modelo laboratorial em alta definição.",
     price: "R$ 144,90",
-    image: "/products/teste-gravidez.jpeg",
+    image: "/products/teste-gravidez.jpg",
     available: true,
   },
   {
@@ -184,7 +184,7 @@ export const products: Product[] = [
     category: "Saúde",
     description: "Modelo completo com dados personalizados.",
     price: "R$ 99,90",
-    image: "/products/exame-toxicologico.jpeg",
+    image: "/products/exame-toxicologico.jpg",
     available: true,
   },
 
@@ -195,7 +195,7 @@ export const products: Product[] = [
     category: "Certificados e Diplomas",
     description: "Qualquer curso, com QR Code funcional.",
     price: "R$ 369,90",
-    image: "/products/diploma-uninter.jpeg",
+    image: "/products/diploma-uninter.jpg",
     available: true,
     featured: true,
   },
@@ -205,7 +205,7 @@ export const products: Product[] = [
     category: "Certificados e Diplomas",
     description: "Diversas instituições e cursos disponíveis.",
     price: "R$ 164,90",
-    image: "/products/diplomas.jpeg",
+    image: "/products/diplomas.jpg",
     available: true,
   },
   {
@@ -214,7 +214,7 @@ export const products: Product[] = [
     category: "Certificados e Diplomas",
     description: "Qualquer curso, acabamento fiel ao original.",
     price: "R$ 164,90",
-    image: "/products/certificado-estacio.jpeg",
+    image: "/products/certificado-estacio.jpg",
     available: true,
   },
   {
@@ -223,7 +223,7 @@ export const products: Product[] = [
     category: "Certificados e Diplomas",
     description: "Modelo completo em alta definição.",
     price: "R$ 164,90",
-    image: "/products/sest-senat.jpeg",
+    image: "/products/sest-senat.jpg",
     available: true,
   },
   {
@@ -232,7 +232,7 @@ export const products: Product[] = [
     category: "Certificados e Diplomas",
     description: "Modelo completo com dados personalizados.",
     price: "R$ 194,90",
-    image: "/products/ensino-medio.jpeg",
+    image: "/products/ensino-medio.jpg",
     available: true,
   },
   {
@@ -241,7 +241,7 @@ export const products: Product[] = [
     category: "Certificados e Diplomas",
     description: "Qualquer estado, modelo detalhado.",
     price: "R$ 194,90",
-    image: "/products/historico-escolar.jpeg",
+    image: "/products/historico-escolar.jpg",
     available: true,
   },
   {
@@ -250,7 +250,7 @@ export const products: Product[] = [
     category: "Certificados e Diplomas",
     description: "Carteira digital com aplicativo e QR Code funcional.",
     price: "R$ 114,90",
-    image: "/products/carteira-estudante.jpeg",
+    image: "/products/carteira-estudante.jpg",
     available: true,
   },
 
@@ -261,7 +261,7 @@ export const products: Product[] = [
     category: "Financeiro",
     description: "Diversos bancos, período e valores personalizados.",
     price: "R$ 84,90",
-    image: "/products/extrato-bancario.jpeg",
+    image: "/products/extrato-bancario.jpg",
     available: true,
   },
   {
@@ -270,7 +270,7 @@ export const products: Product[] = [
     category: "Financeiro",
     description: "Modelo completo, ajustado conforme o pedido.",
     price: "R$ 84,90",
-    image: "/products/nota-fiscal.jpeg",
+    image: "/products/nota-fiscal.jpg",
     available: true,
   },
   {
@@ -279,7 +279,7 @@ export const products: Product[] = [
     category: "Financeiro",
     description: "Comprovante digital com dados personalizados.",
     price: "R$ 49,90",
-    image: "/products/pix-nubank.jpeg",
+    image: "/products/pix-nubank.jpg",
     available: true,
   },
   {
@@ -288,7 +288,7 @@ export const products: Product[] = [
     category: "Financeiro",
     description: "Modelo empresarial com valores personalizados.",
     price: "R$ 84,90",
-    image: "/products/holerite.jpeg",
+    image: "/products/holerite.jpg",
     available: true,
   },
 ];
