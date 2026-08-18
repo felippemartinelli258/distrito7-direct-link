@@ -9,7 +9,7 @@ export function ProductCard({ product }: { product: Product }) {
 
   return (
     <article className="card group flex flex-col overflow-hidden">
-      <div className="relative aspect-[4/3] overflow-hidden bg-secondary">
+      <div className="relative aspect-[4/5] overflow-hidden bg-secondary">
         <img
           src={src}
           alt={product.name}
