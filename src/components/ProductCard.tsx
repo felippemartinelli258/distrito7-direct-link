@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import type { Product } from "@/data/products";
 import { productLink } from "@/lib/whatsapp";
 
@@ -6,19 +6,28 @@ const PLACEHOLDER = "/products/placeholder.svg";
 
 export function ProductCard({ product }: { product: Product }) {
   const [src, setSrc] = useState(product.image || PLACEHOLDER);
+  const imgRef = useRef<HTMLImageElement>(null);
+
+  // A imagem pode falhar antes da hidratacao: checamos apos montar.
+  useEffect(() => {
+    const img = imgRef.current;
+    if (img && img.complete && img.naturalWidth === 0) setSrc(PLACEHOLDER);
+  }, [src]);
 
   return (
     <article className="card group flex flex-col overflow-hidden">
       <div className="relative aspect-[4/5] overflow-hidden bg-secondary">
         <img
+          ref={imgRef}
           src={src}
           alt={product.name}
           loading="lazy"
           width={1024}
-          height={768}
+          height={1280}
           onError={() => setSrc(PLACEHOLDER)}
           className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.03]"
         />
+
         {product.featured && <span className="tag absolute left-3 top-3">Destaque</span>}
         {!product.available && (
           <span className="absolute right-3 top-3 rounded-full border border-border bg-background/85 px-3 py-1 text-[10px] uppercase tracking-[0.18em] text-muted-foreground">
