@@ -10,7 +10,8 @@ import { WhatsAppFloat } from "@/components/WhatsAppFloat";
 
 const TITLE = "DISTRITO7.SHOP | Catálogo Digital";
 const DESCRIPTION =
-  "Produtos digitais, assinaturas e serviços com atendimento direto pelo WhatsApp.";
+  "Acessos e soluções digitais. Discrição, segurança e exclusividade, com atendimento direto pelo WhatsApp.";
+
 
 export const Route = createFileRoute("/")({
   head: () => ({

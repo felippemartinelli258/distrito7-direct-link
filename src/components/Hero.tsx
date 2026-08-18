@@ -1,6 +1,6 @@
 import { ORDER_LINK } from "@/lib/whatsapp";
 
-const badges = ["100% Digital", "Atendimento direto", "Processo rápido"];
+const badges = ["100% Digital", "Discrição total", "Atendimento direto"];
 
 export function Hero() {
   return (
@@ -24,9 +24,11 @@ export function Hero() {
           <span className="text-primary text-glow">Direto ao ponto.</span>
         </h1>
         <p className="mx-auto mt-6 max-w-xl text-base leading-relaxed text-muted-foreground">
-          Produtos digitais, assinaturas e serviços com atendimento direto, processo simples e
-          suporte pelo WhatsApp.
+          Acessos e soluções digitais.
+          <br />
+          Discrição, segurança e exclusividade.
         </p>
+
 
         <div className="mt-9 flex flex-col items-center justify-center gap-3 sm:flex-row">
           <a href="#catalogo" className="btn-primary w-full sm:w-auto">
